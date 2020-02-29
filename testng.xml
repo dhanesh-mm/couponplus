@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!-- environment settings -->
+	<parameter name="baseurl" value="https://couponplus.io/" />
+	<parameter name="browser" value="chrome" />
+
+	<!-- for login -->
+
+	<parameter name="email" value="bcltest780+4@gmail.com" />
+	<parameter name="password" value="Dhanesh@123" />
+	<parameter name="product" value="pepsi" />
+	<parameter name="emailstr" value="bcltest780+10@gmail.com" />
+	<parameter name="passwordstr" value="Dhanesh@123" />
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="io.couponplus.scripts.testScript" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
