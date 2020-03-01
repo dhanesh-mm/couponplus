@@ -51,12 +51,12 @@ public class BaseLib
 	}
 
 
-//	@AfterClass
-//	public void TearDown()
-//	{
-//		driver.close();
-//		Reporter.log("browser closed",true);
-//	}
+	@AfterClass
+	public void TearDown()
+	{
+		driver.close();
+		Reporter.log("browser closed",true);
+	}
 
 
 	@AfterMethod

@@ -9,10 +9,12 @@
 
 	<parameter name="email" value="bcltest780+4@gmail.com" />
 	<parameter name="password" value="Dhanesh@123" />
-	<parameter name="product" value="pepsi" />
+	<parameter name="product" value="Pepsi" />
 	<parameter name="emailstr" value="bcltest780+10@gmail.com" />
 	<parameter name="passwordstr" value="Dhanesh@123" />
-
+	<parameter name="addproduct" value="2" />
+	<parameter name="path"
+		value="/home/sunny/Downloads" />
 	<test thread-count="5" name="Test">
 		<classes>
 			<class name="io.couponplus.scripts.testScript" />

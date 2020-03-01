@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Reporter;
 
 import io.couponplus.generic.WebdriverCommonLib;
 
@@ -47,6 +48,7 @@ public class Login {
 		wlib.enterData(EMail, Email);
 		wlib.enterData(Pswd, Pwd);
 		Login.click();
+		Reporter.log("Login as customer successfully",true);
 
 	}
 	public void storeLogin(String Email,String Pwd) throws InterruptedException
@@ -57,6 +59,7 @@ public class Login {
 		wlib.enterData(EMail1, Email);
 		wlib.enterData(Pswd1, Pwd);
 		Login.click();
+		Reporter.log("Login as Store user successfully",true);
 
 	}
 

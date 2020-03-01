@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Reporter;
+
 import io.couponplus.generic.WebdriverCommonLib;
 
 public class Logout {
@@ -34,6 +36,7 @@ public class Logout {
 		Profile.click();
 		Thread.sleep(2000);
 		Logout.click();
+		Reporter.log("Customer logout successfully",true);
 
 	}
 	public void storLogOut() throws InterruptedException
@@ -42,6 +45,7 @@ public class Logout {
 		StrProfile.click();
 		Thread.sleep(3000);
 		StrLogout.click();
+		Reporter.log("Store user logout successfully",true);
 
 	}
 

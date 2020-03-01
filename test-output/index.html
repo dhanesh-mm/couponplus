@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,26 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="io.couponplus.scripts.testScript" hash-for-method="AftrPurStr(bcltest780+10@gmail.com, Dhanesh@123)">AftrPurStr(bcltest780+10@gmail.com, Dhanesh@123)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="io.couponplus.scripts.testScript" hash-for-method="Customer(bcltest780+4@gmail.com, Dhanesh@123, pepsi)">Customer(bcltest780+4@gmail.com, Dhanesh@123, pepsi)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -121,7 +102,17 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="io.couponplus.scripts.testScript" hash-for-method="BfrPurStr(bcltest780+10@gmail.com, Dhanesh@123)">BfrPurStr(bcltest780+10@gmail.com, Dhanesh@123)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="io.couponplus.scripts.testScript" hash-for-method="beforeCouponPurchase(bcltest780+10@gmail.com, Dhanesh@123)">beforeCouponPurchase(bcltest780+10@gmail.com, Dhanesh@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="io.couponplus.scripts.testScript" hash-for-method="customerCouponPurchase(bcltest780+4@gmail.com, Dhanesh@123, Pepsi, 2)">customerCouponPurchase(bcltest780+4@gmail.com, Dhanesh@123, Pepsi, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="io.couponplus.scripts.testScript" hash-for-method="redeemCoupon(bcltest780+10@gmail.com, Dhanesh@123, /home/sunny/Downloads, Pepsi)">redeemCoupon(bcltest780+10@gmail.com, Dhanesh@123, /home/sunny/Downloads, Pepsi)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -136,57 +127,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">io.couponplus.scripts.testScript</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="AftrPurStr(bcltest780+10@gmail.com, Dhanesh@123)">
-                  </a> <!-- AftrPurStr(bcltest780+10@gmail.com, Dhanesh@123) -->
-                  <span class="method-name">AftrPurStr</span>
-                  <span class="parameters">(bcltest780+10@gmail.com, Dhanesh@123)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//a[text()=&apos; Login | Register&apos;]/b[text()=&apos;Store :&apos;]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;sunny-Lenovo-ideapad-330S-14IKB-U&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-40-generic&apos;, java.version: &apos;1.8.0_242&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at io.couponplus.pageobjects.Login.storeLogin(Login.java:55)
-	at io.couponplus.scripts.testScript.AftrPurStr(testScript.java:48)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(login with valid credentials in Store)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Customer(bcltest780+4@gmail.com, Dhanesh@123, pepsi)">
-                  </a> <!-- Customer(bcltest780+4@gmail.com, Dhanesh@123, pepsi) -->
-                  <span class="method-name">Customer</span>
-                  <span class="parameters">(bcltest780+4@gmail.com, Dhanesh@123, pepsi)</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at io.couponplus.pageobjects.CustBasePage.navigateToCustPage(CustBasePage.java:63)
-	at io.couponplus.scripts.testScript.Customer(testScript.java:38)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Search Product)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -195,10 +135,30 @@ Driver info: driver.version: RemoteWebDriver
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="BfrPurStr(bcltest780+10@gmail.com, Dhanesh@123)">
-                  </a> <!-- BfrPurStr(bcltest780+10@gmail.com, Dhanesh@123) -->
-                  <span class="method-name">BfrPurStr</span>
+                  <a name="beforeCouponPurchase(bcltest780+10@gmail.com, Dhanesh@123)">
+                  </a> <!-- beforeCouponPurchase(bcltest780+10@gmail.com, Dhanesh@123) -->
+                  <span class="method-name">beforeCouponPurchase</span>
                   <span class="parameters">(bcltest780+10@gmail.com, Dhanesh@123)</span>
+                  <em>
+(login with valid credentials in Store)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="customerCouponPurchase(bcltest780+4@gmail.com, Dhanesh@123, Pepsi, 2)">
+                  </a> <!-- customerCouponPurchase(bcltest780+4@gmail.com, Dhanesh@123, Pepsi, 2) -->
+                  <span class="method-name">customerCouponPurchase</span>
+                  <span class="parameters">(bcltest780+4@gmail.com, Dhanesh@123, Pepsi, 2)</span>
+                  <em>
+(Search Product)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redeemCoupon(bcltest780+10@gmail.com, Dhanesh@123, /home/sunny/Downloads, Pepsi)">
+                  </a> <!-- redeemCoupon(bcltest780+10@gmail.com, Dhanesh@123, /home/sunny/Downloads, Pepsi) -->
+                  <span class="method-name">redeemCoupon</span>
+                  <span class="parameters">(bcltest780+10@gmail.com, Dhanesh@123, /home/sunny/Downloads, Pepsi)</span>
                   <em>
 (login with valid credentials in Store)                  </em>
                 </div> <!-- method-content -->
@@ -215,12 +175,14 @@ Driver info: driver.version: RemoteWebDriver
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;parameter name=&quot;path&quot; value=&quot;/home/sunny/Downloads&quot;/&gt;
   &lt;parameter name=&quot;password&quot; value=&quot;Dhanesh@123&quot;/&gt;
-  &lt;parameter name=&quot;product&quot; value=&quot;pepsi&quot;/&gt;
+  &lt;parameter name=&quot;product&quot; value=&quot;Pepsi&quot;/&gt;
   &lt;parameter name=&quot;baseurl&quot; value=&quot;https://couponplus.io/&quot;/&gt;
   &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
   &lt;parameter name=&quot;passwordstr&quot; value=&quot;Dhanesh@123&quot;/&gt;
   &lt;parameter name=&quot;emailstr&quot; value=&quot;bcltest780+10@gmail.com&quot;/&gt;
+  &lt;parameter name=&quot;addproduct&quot; value=&quot;2&quot;/&gt;
   &lt;parameter name=&quot;email&quot; value=&quot;bcltest780+4@gmail.com&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
@@ -266,22 +228,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Customer')
+data.setCell(0, 1, 'customerCouponPurchase')
 data.setCell(0, 2, 'io.couponplus.scripts.testScript')
-data.setCell(0, 3, 53818);
+data.setCell(0, 3, 88864);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'BfrPurStr')
+data.setCell(1, 1, 'beforeCouponPurchase')
 data.setCell(1, 2, 'io.couponplus.scripts.testScript')
-data.setCell(1, 3, 49496);
+data.setCell(1, 3, 45218);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'AftrPurStr')
+data.setCell(2, 1, 'redeemCoupon')
 data.setCell(2, 2, 'io.couponplus.scripts.testScript')
-data.setCell(2, 3, 8038);
+data.setCell(2, 3, 44042);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -292,6 +254,35 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">customerCouponPurchase(bcltest780+4@gmail.com, Dhanesh@123, Pepsi, 2)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login as customer successfully</span>
+                <span class="reporter-method-output">Product searched successfully</span>
+                <span class="reporter-method-output">Product added to cart Successfully</span>
+                <span class="reporter-method-output">Coupon Downloaded successfully</span>
+                <span class="reporter-method-output">Quantity of coupon purchased: 2</span>
+                <span class="reporter-method-output">Customer logout successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">redeemCoupon(bcltest780+10@gmail.com, Dhanesh@123, /home/sunny/Downloads, Pepsi)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login as Store user successfully</span>
+                <span class="reporter-method-output">Inventory count after coupon purchase: 70</span>
+                <span class="reporter-method-output">Coupan code is : PepsESSC</span>
+                <span class="reporter-method-output">Before Redeem Coupon Status: 8/122 , After Redeem Coupon Status:  9/121</span>
+                <span class="reporter-method-output">Coupon redeemed successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">beforeCouponPurchase(bcltest780+10@gmail.com, Dhanesh@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login as Store user successfully</span>
+                <span class="reporter-method-output">Inventory count before coupon purchase: 72</span>
+                <span class="reporter-method-output">Store user logout successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
@@ -313,35 +304,33 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">BfrPurStr(bcltest780+10@gmail.com, Dhanesh@123)</span>
-                <span class="method-start">63370 ms</span>
+                <span class="method-name">beforeCouponPurchase(bcltest780+10@gmail.com, Dhanesh@123)</span>
+                <span class="method-start">11428 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">postConditions([TestResult name=BfrPurStr status=SUCCESS method=testScript.BfrPurStr(java.lang.String, java.lang.St...)</span>
-                <span class="method-start">112889 ms</span>
+                <span class="method-name">postConditions([TestResult name=beforeCouponPurchase status=SUCCESS method=testScript.beforeCouponPurchase(java.lan...)</span>
+                <span class="method-start">56649 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">Customer(bcltest780+4@gmail.com, Dhanesh@123, pepsi)</span>
-                <span class="method-start">112912 ms</span>
+                <span class="method-name">customerCouponPurchase(bcltest780+4@gmail.com, Dhanesh@123, Pepsi, 2)</span>
+                <span class="method-start">56662 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">postConditions([TestResult name=Customer status=FAILURE method=testScript.Customer(java.lang.String, java.lang.Stri...)</span>
-                <span class="method-start">166755 ms</span>
+                <span class="method-name">postConditions([TestResult name=customerCouponPurchase status=SUCCESS method=testScript.customerCouponPurchase(java...)</span>
+                <span class="method-start">145549 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">AftrPurStr(bcltest780+10@gmail.com, Dhanesh@123)</span>
-                <span class="method-start">167813 ms</span>
+                <span class="method-name">redeemCoupon(bcltest780+10@gmail.com, Dhanesh@123, /home/sunny/Downloads, Pepsi)</span>
+                <span class="method-start">145562 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">postConditions([TestResult name=AftrPurStr status=FAILURE method=testScript.AftrPurStr(java.lang.String, java.lang....)</span>
-                <span class="method-start">175858 ms</span>
+                <span class="method-name">postConditions([TestResult name=redeemCoupon status=SUCCESS method=testScript.redeemCoupon(java.lang.String, java.l...)</span>
+                <span class="method-start">189608 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">189611 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
