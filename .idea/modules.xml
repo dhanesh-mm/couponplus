@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CouponPlus.iml" filepath="$PROJECT_DIR$/CouponPlus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bin/couponplus.iml" filepath="$PROJECT_DIR$/bin/couponplus.iml" />
+    </modules>
+  </component>
+</project>

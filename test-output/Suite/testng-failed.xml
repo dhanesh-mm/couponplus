@@ -15,8 +15,8 @@
       <class name="io.couponplus.scripts.testScript">
         <methods>
           <include name="beforeCouponPurchase" invocation-numbers="0"/>
-          <include name="customerCouponPurchase"/>
-          <include name="redeemCoupon"/>
+          <include name="customerCouponPurchase" invocation-numbers="0"/>
+          <include name="redeemCoupon" invocation-numbers="0"/>
           <include name="TearDown"/>
           <include name="postConditions"/>
           <include name="stUp"/>
