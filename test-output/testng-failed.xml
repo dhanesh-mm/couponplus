@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <parameter name="path" value="/home/sunny/Downloads"/>
+  <parameter name="path" value="C:\Users\Admin\Downloads"/>
   <parameter name="password" value="Dhanesh@123"/>
   <parameter name="product" value="Pepsi"/>
   <parameter name="baseurl" value="https://couponplus.io/"/>
@@ -14,7 +14,8 @@
     <classes>
       <class name="io.couponplus.scripts.testScript">
         <methods>
-          <include name="customerCouponPurchase" invocation-numbers="0"/>
+          <include name="beforeCouponPurchase" invocation-numbers="0"/>
+          <include name="customerCouponPurchase"/>
           <include name="redeemCoupon"/>
           <include name="TearDown"/>
           <include name="postConditions"/>

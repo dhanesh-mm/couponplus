@@ -14,7 +14,7 @@
 	<parameter name="passwordstr" value="Dhanesh@123" />
 	<parameter name="addproduct" value="2" />
 	<parameter name="path"
-		value="/home/sunny/Downloads" />
+		value="C:\Users\Admin\Downloads" />
 	<test thread-count="5" name="Test">
 		<classes>
 			<class name="io.couponplus.scripts.testScript" />

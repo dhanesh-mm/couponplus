@@ -64,7 +64,7 @@ public class testScript extends BaseLib {
 		PdfReader pdf= new PdfReader();
 		pdf.reader(path, product);
 		String couponCode = (String) pdf.couponVal();
-		
+
 		Reporter.log("Coupan code is : "+ couponCode);
 		stor.redeemCoupon(couponCode);
 		Thread.sleep(2000);
